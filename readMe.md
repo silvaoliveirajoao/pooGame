@@ -1,7 +1,10 @@
 # "Segredo no Farol" (Fase 1 - PUCRS)
 
 ## Como executar:
-1. Instale o Node.js (npm i node).
+1. Instale o Node.js
+```
+npm i node@lts
+```
 2. Abra o terminal na pasta do projeto.
 3. Execute:
 node index.js
@@ -22,4 +25,5 @@ Experimente navegar pelas salas:
 - `pega chave_mestra`
 - `sai FarolFechado`
 - `usa chave_mestra porta_do_farol`
-(etc.)
+- 
+(et cetera.)
