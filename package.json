@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "poogame",
+  "version": "1.0.0",
+  "description": "1. Instale o Node.js\r ```\r npm i node@lts\r ```\r 2. Abra o terminal na pasta do projeto.\r 3. Execute:\r node index.js\r 4. O jogo iniciará no prompt do console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

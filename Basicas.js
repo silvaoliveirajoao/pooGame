@@ -1,7 +1,6 @@
 import { validate } from "bycontract";
 import promptsync from 'prompt-sync';
 const prompt = promptsync({ sigint: true });
-// ---------------------------------------------
 export class Ferramenta {
 	#nome;
 
@@ -47,7 +46,6 @@ export class Mochila{
 	}
 }
 
-// ---------------------------------------------
 export class Objeto {
 	#nome;
     #descricaoAntesAcao;
@@ -86,7 +84,6 @@ export class Objeto {
 	usa(ferramenta,objeto){
 	}
 }
-// ---------------------------------------------
 export class Sala {
 	#nome;
 	#objetos;
@@ -219,9 +216,9 @@ export class Engine{
 		let acao = "";
 		let tokens = null;
 		while (!this.#fim) {
-			console.log("-------------------------");
+			console.log("*****-------------v-------------*****\n\n");
 			console.log(this.salaCorrente.textoDescricao());
-			acao = prompt("O que voce deseja fazer? ");
+			acao = prompt("O que você deseja fazer? ");
 			tokens = acao.split(" ");
 			switch (tokens[0]) {
 			case "fim":
@@ -239,12 +236,12 @@ export class Engine{
 				break;
 			case "usa":
 					if (this.salaCorrente.usa(tokens[1],tokens[2])) {
-						console.log("Feito !!");
+						console.log("Feito!!");
 						if (this.#fim == true){
-							console.log("Parabens, voce venceu!");
+							console.log("Parabêns, você venceu!");
 						}
 					} else {
-						console.log("Não é possível usar " + tokens[1] + "sobre" + tokens[2] + " nesta sala");
+						console.log("Não é possível usar " + tokens[1] + " sobre " + tokens[2] + " nesta sala");
 					}
 				break;
 			case "sai":
