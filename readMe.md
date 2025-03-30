@@ -1,4 +1,4 @@
-# "Segredo no Farol" (Fase 1 - PUCRS)
+# "Segredo no Farol" (Fase 2 - PUCRS)
 
 ## Como executar:
 1. Instale o Node.js
@@ -6,9 +6,19 @@
 npm i node@lts
 ```
 2. Abra o terminal na pasta do projeto.
-3. Execute:
+
+3. Instale o prompt-sync
+```
+npm i prompt-sync
+```
+4. Instale o bycontract
+```
+npm i bycontract
+```
+5. Execute:
 node index.js
-4. O jogo iniciará no prompt do console.
+
+6. O jogo iniciará no prompt do console.
 
 ## Comandos possíveis no jogo:
 - pega <nome_da_ferramenta>
