@@ -17,13 +17,15 @@ node index.js
 - inventario
 - fim
 
-Experimente navegar pelas salas:
+Comandos para vitória:
 - `sai Cabana`
 - `pega gasolina`
+- `usa gasolina gerador`
 - `sai Praia`
-- `sai Bosque`
+- `Sai Bosque`
 - `pega chave_mestra`
 - `sai FarolFechado`
-- `usa chave_mestra porta_do_farol`
-- 
+- `sai InteriorFarol`
+- `sai TopoDoFarol`
+- `usa chave_mestra bau_do_tesouro`
 (et cetera.)
